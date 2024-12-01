@@ -820,28 +820,6 @@ textarea {
   border-top: 1px solid rgb(var(--discord-red));
 }
 
-#app-mount .wrapper_d880dc.minimum_d880dc {
-  background: var(--background-secondary);
-}
-#app-mount .centerButton-3CaNcJ {
-  background: var(--foreground);
-}
-#app-mount .centerButton-3CaNcJ:hover {
-  background: var(--foreground-double);
-}
-#app-mount .controlButton_b6e2f9.leaveButton-2YnTyt {
-  background: rgb(var(--discord-red), 0.5);
-}
-#app-mount .controlButton_b6e2f9.leaveButton-2YnTyt:hover {
-  background: rgb(var(--discord-red));
-}
-#app-mount .quickSelect__540d0 {
-  margin-top: 10px;
-}
-#app-mount .chatButton_dd069c {
-  right: 120px;
-}
-
 #app-mount .container_d1c246 {
   background: rgb(0, 0, 0, var(--middle-brightness));
 }
