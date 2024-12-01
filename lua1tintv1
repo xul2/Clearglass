@@ -1762,3 +1762,32 @@ html.platform-osx .scroller-2TZvBN {
     transform: translateY(0);
   }
 }
+
+html.platform-osx .macButtons-2MuSAC {
+  position: absolute;
+  top: var(--window-padding);
+  left: var(--window-padding);
+  background: rgb(0, 0, 0, var(--serverlist-brightness));
+  width: 72px;
+  border-top-left-radius: var(--window-roundness);
+  z-index: 10; /* Ensure buttons stay on top */
+}
+
+html.platform-osx .wrapper-1Rf91z {
+  margin-top: 40px; /* Increased from 30px to provide more space */
+}
+
+html.platform-osx .scroller-2TZvBN {
+  padding-top: 25px; /* Increased from 15px */
+}
+
+/* Update the guilds container positioning */
+#app-mount .guilds_a4d4d9 {
+  background-color: transparent;
+  margin-top: 10px; /* Add some top margin */
+}
+
+#app-mount .guilds_a4d4d9 .scrollerBase_c49869 {
+  background-color: rgb(0, 0, 0, var(--serverlist-brightness));
+  padding-top: 5px; /* Add some padding at the top */
+}
