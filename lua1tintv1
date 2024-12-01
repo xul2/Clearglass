@@ -38,7 +38,7 @@
   --home-icon: var(--home-button-image);
   --home-position: var(--home-icon-image-position);
   --home-size: var(--home-icon-image-zoom);
-  --update-notice-toggle: none; /* Change to 'none' to hide the notice */
+  --update-notice-toggle: block; /* Change to 'none' to hide the notice */
 
 }
 
