@@ -35,6 +35,9 @@
   --fb-overlay-size: var(--popout-modal-size, var(--overlay-image-size));
   --fb-overlay-position: var(--popout-modal-position, var(--overlay-image-position));
   --fb-overlay-repeat: var(--popout-modal-repeat, var(--overlay-image-repeat));
+  --home-icon: var(--home-button-image);
+  --home-position: var(--home-icon-image-position);
+  --home-size: var(--home-icon-image-zoom);
 }
 
 .theme-dark {
