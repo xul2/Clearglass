@@ -90,6 +90,37 @@
   --text-link: var(--link-colour);
 }
 
+.container-1giJp5,
+.callContainer-BGIngG,
+.wrapper-3t3Yqv,
+.wrapper-2qzCYF,
+.minimum-28Z35l,
+.panels-3wFtMD,
+.container-1zzFcN,
+.container-YkUktl,
+[class*='vcBox'],
+[class*='callContainer'],
+.voiceCallWrapper-3kPwHm,
+.wrapper-3EGhDO,
+.container-1r6BKw {
+    background: transparent !important;
+}
+
+.panels-3wFtMD > * {
+    background: transparent !important;
+}
+
+.panel-2ZFCRb {
+    background: transparent !important;
+}
+
+.wrapper-24pKcD {
+    background: transparent !important;
+}
+
+.container-1giJp5 {
+    background: transparent !important;
+}
 #app-mount .layer_d4b6c5 {
   top: var(--window-padding);
   right: var(--window-padding);
