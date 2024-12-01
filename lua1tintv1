@@ -1,4 +1,4 @@
-:root {
+  :root {
   --version: "Tinted Glass 1.0";
   --TB-top: calc(var(--server-container) + var(--window-padding));
   --TB-tr-roundness: var(--window-roundness);
@@ -591,7 +591,7 @@ textarea {
   content: "";
   border-radius: 50%;
   position: absolute;
-  background: var(--home-button-image, url("https://i.pinimg.com/736x/ed/36/89/ed36890764b578a088da04c1a63b6c8d.jpg"));
+  background: var(--home-button-image, url("https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/discord-white-icon.png"));
   background-size: var(--home-button-size, cover);
   background-position: var(--home-button-position, center);
   background-repeat: var(--home-button-repeat, no-repeat);
