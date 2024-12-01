@@ -142,7 +142,7 @@ html body #app-mount .scrollerBase_c49869 {
 }
 
 #app-mount .app_a01fb1::before {
-  content: "Your version of Tinted Glass is outdated. Pleas redownload";
+  content: "Your version of Tinted Glass is outdated. Please Contact Seller";
   white-space: pre-wrap;
   display: var(--update-notice-toggle, block);
   color: #fff;
