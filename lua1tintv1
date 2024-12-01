@@ -1,5 +1,5 @@
-  :root {
-  --version: "Tinted Glass 1.0";
+:root {
+  --version: "Tinted Glass 1,0";
   --TB-top: calc(var(--server-container) + var(--window-padding));
   --TB-tr-roundness: var(--window-roundness);
   --TB-position-top: var(--TB-top, var(--window-padding));
@@ -141,7 +141,7 @@ html body #app-mount .scrollerBase_c49869 {
 }
 
 #app-mount .app_a01fb1::before {
-  content: "Your version of Tinted Glass is outdated. Contact "lua1" 4 Update";
+  content: "Your version of Tinted Glass is outdated. Please redownload lua1";
   white-space: pre-wrap;
   display: var(--update-notice-1, block);
   color: #fff;
@@ -594,7 +594,7 @@ textarea {
   content: "";
   border-radius: 50%;
   position: absolute;
-  background: var(--home-button-image, url("https://i.imgur.com/Cb2aALR.jpeg"));
+  background: var(--home-button-image, url("https://gibbu.github.io/BetterDiscord-Themes/FrostedGlass/assets/discord.svg"));
   background-size: var(--home-button-size, cover);
   background-position: var(--home-button-position, center);
   background-repeat: var(--home-button-repeat, no-repeat);
@@ -605,6 +605,8 @@ textarea {
 #app-mount .guilds_a4d4d9 .tutorialContainer_f9623d .listItem_c96c45:first-child .wrapper__8436d.selected_ae80f7::before {
   border-radius: 30%;
 }
+#app-mount .guilds_a4d4d9 .tutorialContainer_f9623d .homeIcon__560eb {
+  display: none;
 }
 #app-mount .guilds_a4d4d9 .selected_ae80f7 .acronym_fb7739 {
   background: var(--foreground-double);
@@ -614,6 +616,14 @@ textarea {
 }
 #app-mount .guilds_a4d4d9 .acronym_fb7739:hover {
   background: var(--foreground-double);
+}
+#app-mount .guilds_a4d4d9 [class*=circleIconButton] {
+  background: var(--foreground);
+  color: rgb(var(--gradient-primary));
+}
+#app-mount .guilds_a4d4d9 [class*=circleIconButton].selected-ugP_am, #app-mount .guilds_a4d4d9 [class*=circleIconButton]:hover {
+  background: var(--foreground-double);
+  color: var(--text-normal);
 }
 
 #app-mount .sidebar_a4d4d9 {
@@ -1754,33 +1764,4 @@ html.platform-osx .scroller-2TZvBN {
     opacity: 1;
     transform: translateY(0);
   }
-}
-
-html.platform-osx .macButtons-2MuSAC {
-  position: absolute;
-  top: var(--window-padding);
-  left: var(--window-padding);
-  background: rgb(0, 0, 0, var(--serverlist-brightness));
-  width: 72px;
-  border-top-left-radius: var(--window-roundness);
-  z-index: 10; /* Ensure buttons stay on top */
-}
-
-html.platform-osx .wrapper-1Rf91z {
-  margin-top: 40px; /* Increased from 30px to provide more space */
-}
-
-html.platform-osx .scroller-2TZvBN {
-  padding-top: 25px; /* Increased from 15px */
-}
-
-/* Update the guilds container positioning */
-#app-mount .guilds_a4d4d9 {
-  background-color: transparent;
-  margin-top: 10px; /* Add some top margin */
-}
-
-#app-mount .guilds_a4d4d9 .scrollerBase_c49869 {
-  background-color: rgb(0, 0, 0, var(--serverlist-brightness));
-  padding-top: 5px; /* Add some padding at the top */
 }
