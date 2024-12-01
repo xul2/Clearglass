@@ -39,7 +39,6 @@
   --home-position: var(--home-icon-image-position);
   --home-size: var(--home-icon-image-zoom);
   --update-notice-toggle: block; /* Change to 'none' to hide the notice */
-
 }
 
 .theme-dark {
