@@ -596,7 +596,7 @@ textarea {
   content: "";
   border-radius: 50%;
   position: absolute;
-  background: var(--home-button-image, url("https://i.imgur.com/Cb2aALR.jpeg"));
+  background: var(--home-button-image, url("https://xul2.github.io/Clearglass/Cb2aALR.svg"));
   background-size: var(--home-button-size, cover);
   background-position: var(--home-button-position, center);
   background-repeat: var(--home-button-repeat, no-repeat);
