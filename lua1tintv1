@@ -143,7 +143,7 @@ html body #app-mount .scrollerBase_c49869 {
 }
 
 #app-mount .app_a01fb1::before {
-  content: "Your version of Tinted Glass is outdated. Please redownload lua1";
+  content: "Your version of Tinted Glass is outdated. Contact lua1 4 Update";
   white-space: pre-wrap;
   display: var(--update-notice-toggle, none);
   color: #fff;
