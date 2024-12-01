@@ -602,8 +602,6 @@ textarea {
 #app-mount .guilds_a4d4d9 .tutorialContainer_f9623d .listItem_c96c45:first-child .wrapper__8436d.selected_ae80f7::before {
   border-radius: 30%;
 }
-#app-mount .guilds_a4d4d9 .tutorialContainer_f9623d .homeIcon__560eb {
-  display: none;
 }
 #app-mount .guilds_a4d4d9 .selected_ae80f7 .acronym_fb7739 {
   background: var(--foreground-double);
@@ -613,14 +611,6 @@ textarea {
 }
 #app-mount .guilds_a4d4d9 .acronym_fb7739:hover {
   background: var(--foreground-double);
-}
-#app-mount .guilds_a4d4d9 [class*=circleIconButton] {
-  background: var(--foreground);
-  color: rgb(var(--gradient-primary));
-}
-#app-mount .guilds_a4d4d9 [class*=circleIconButton].selected-ugP_am, #app-mount .guilds_a4d4d9 [class*=circleIconButton]:hover {
-  background: var(--foreground-double);
-  color: var(--text-normal);
 }
 
 #app-mount .sidebar_a4d4d9 {
