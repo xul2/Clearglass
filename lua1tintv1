@@ -1,3 +1,4 @@
+
 :root {
   --version: "Tinted Glass 1,0";
   --TB-top: calc(var(--server-container) + var(--window-padding));
@@ -800,17 +801,17 @@ textarea {
 }
 #app-mount .mentioned_d5deea {
   background: rgba(var(--discord-yellow), 0.1) !important;
+  color: #fff !important; /* Added to make mentioned text white */
 }
 #app-mount .mentioned_d5deea::before {
   background: rgb(var(--discord-yellow));
 }
+#app-mount .repliedMessage_d5deea {
+  color: rgb(var(--discord-yellow)) !important; /* Added to make reply text yellow */
+}
 #app-mount .wrapper_d4fa29 {
   background: var(--gradient);
   color: var(--text-normal);
-}
-#app-mount .popoverReactionHoverBar_e986d9 {
-  -webkit-backdrop-filter: blur(6px);
-          backdrop-filter: blur(6px);
 }
 
 #app-mount .form_a7d72e {
