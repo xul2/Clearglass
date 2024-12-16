@@ -799,10 +799,10 @@ textarea {
   color: var(--text-default);
 }
 #app-mount .mentioned_d5deea {
-  background: var(--gradient-20) !important;
+  background: rgba(var(--discord-yellow), 0.1) !important;
 }
 #app-mount .mentioned_d5deea::before {
-  background: var(--gradient);
+  background: rgb(var(--discord-yellow));
 }
 #app-mount .wrapper_d4fa29 {
   background: var(--gradient);
