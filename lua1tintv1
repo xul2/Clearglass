@@ -1,4 +1,3 @@
-
 :root {
   --version: "Tinted Glass 1,0";
   --TB-top: calc(var(--server-container) + var(--window-padding));
